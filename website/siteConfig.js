@@ -67,7 +67,7 @@ const siteConfig = {
   twitter: 'reactnative',
   markdownPlugins: [
     RemarkablePlugins.SnackPlayer,
-    RemarkablePlugins.ReactNativeWebPlayer,
+    // RemarkablePlugins.ReactNativeWebPlayer,
   ],
   usePrism: ['javascript', 'js', 'jsx', 'java', 'objective-c', 'json'],
   highlight: {
@@ -75,10 +75,14 @@ const siteConfig = {
   },
   gaTrackingId: 'UA-41298772-2',
   scripts: [
-    'https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.min.js',
-    'https://snack.expo.io/embed.js',
-    'https://platform.twitter.com/widgets.js',
-    'https://buttons.github.io/buttons.js',
+    // 'https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.min.js',
+    // 'https://snack.expo.io/embed.js',
+    // 'https://platform.twitter.com/widgets.js',
+    // 'https://buttons.github.io/buttons.js',
+    baseUrl + 'js/cdn/focus-visible.min.js',
+    baseUrl + 'js/cdn/embed.js',
+    baseUrl + 'js/cdn/widgets.js',
+    baseUrl + 'js/cdn/buttons.js',
     baseUrl + 'js/codeblocks.js',
     baseUrl + 'js/tabs.js',
   ],

@@ -383,15 +383,18 @@ function Talks() {
           />
         }
         columnTwo={
-          <div className="vidWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/NCAY0HIfrwc"
-              title="Mobile Innovation with React Native, ComponentKit, and Litho"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            />
-          </div>
+          <a href="https://www.youtube.com/embed/NCAY0HIfrwc">
+            Mobile Innovation with React Native, ComponentKit, and Litho
+          </a>
+          // <div className="vidWrapper">
+          //   <iframe
+          //     src="https://www.youtube.com/embed/NCAY0HIfrwc"
+          //     title="Mobile Innovation with React Native, ComponentKit, and Litho"
+          //     frameborder="0"
+          //     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          //     allowfullscreen
+          //   />
+          // </div>
         }
       />
     </Section>

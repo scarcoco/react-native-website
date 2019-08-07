@@ -143,6 +143,9 @@ function ReactNativeWebPlayer(md) {
       hash += `&${paramsString}`;
     }
     let params = parseParams(paramsString);
+    console.log(
+      `\nhttps://cdn.rawgit.com/dabbott/react-native-web-player/gh-v${WEB_PLAYER_VERSION}/index.html${hash}\n`
+    );
 
     return (
       '<div class="web-player">' +

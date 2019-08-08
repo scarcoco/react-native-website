@@ -81,7 +81,7 @@ const siteConfig = {
     // 'https://buttons.github.io/buttons.js',
     baseUrl + 'js/cdn/focus-visible.min.js',
     baseUrl + 'js/cdn/embed.js',
-    baseUrl + 'js/cdn/widgets.js',
+    // baseUrl + 'js/cdn/widgets.js',
     baseUrl + 'js/cdn/buttons.js',
     baseUrl + 'js/codeblocks.js',
     baseUrl + 'js/tabs.js',

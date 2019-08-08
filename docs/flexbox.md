@@ -15,7 +15,7 @@ You will normally use a combination of `flexDirection`, `alignItems`, and `justi
 
 In the following example the red, yellow and the green views are all children in the container view that have `flex: 1` set. The red view uses `flex: 1` , the yellow view uses `flex: 2` and the green view uses `flex: 3` . **1+2+3 = 6** which means that the red view will get `1/6` of the space, the yellow `2/6` of the space and the green `3/6` of the space.
 
-![Flex](https://cdn-images-1.medium.com/max/800/1*PhCFmO5tYX_sZSyCd4vO3w.png)
+![Flex](/react-native/docs/assets/flex/flex.png)
 
 #### Flex Direction
 
@@ -49,7 +49,7 @@ export default class FlexDirectionBasics extends Component {
 };
 ```
 
-![Flex Direction](https://cdn-images-1.medium.com/max/800/1*rA7IbuUsJWsx6evKAsabVw.png)
+![Flex Direction](/react-native/docs/assets/flex/flexDirection.png)
 
 ### Layout Direction
 
@@ -98,7 +98,7 @@ export default class JustifyContentBasics extends Component {
 };
 ```
 
-![Justify Content](https://cdn-images-1.medium.com/max/800/1*i5TVlme-TisAVvD5ax2yPA.png)
+![Justify Content](/react-native/docs/assets/flex/justifyContent.png)
 
 #### Align Items
 
@@ -143,13 +143,13 @@ export default class AlignItemsBasics extends Component {
 };
 ```
 
-![Align Items](https://cdn-images-1.medium.com/max/800/1*evkM7zfxt-9p-HJ1M0Bh2g.png)
+![Align Items](/react-native/docs/assets/flex/alignItems.png)
 
 ### Align Self
 
 [`alignSelf`](https://facebook.github.io/react-native/docs/layout-props#alignself) has the same options and effect as `alignItems` but instead of affecting the children within a container, you can apply this property to a single child to change its alignment within its parent. `alignSelf` overrides any option set by the parent with `alignItems`.
 
-![Align Self](https://cdn-images-1.medium.com/max/800/1*J1JCoKwLCokX9JXVBvP71g.png)
+![Align Self](/react-native/docs/assets/flex/alignSelf.png)
 
 ### Align Content
 
@@ -169,7 +169,7 @@ export default class AlignItemsBasics extends Component {
 
 LEARN MORE [HERE](https://yogalayout.com/docs/align-content)
 
-![Align Content](https://cdn-images-1.medium.com/max/800/1*cC2XFyCF_igp20Ombt4wBw.png)
+![Align Content](/react-native/docs/assets/flex/alignContent.png)
 
 ### Flex Wrap
 
@@ -177,7 +177,7 @@ The [`flexWrap`](https://facebook.github.io/react-native/docs/layout-props#flexw
 
 When wrapping lines `alignContent` can be used to specify how the lines are placed in the container. learn more [here](https://yogalayout.com/docs/flex-wrap)
 
-![Flex Wrap](https://cdn-images-1.medium.com/max/800/1*_7v4uQhSsuCn1cfeOMVfrA.png)
+![Flex Wrap](/react-native/docs/assets/flex/flexWrap.png)
 
 ### Flex Basis, Grow, and Shrink
 
@@ -213,7 +213,7 @@ The `position` type of an element defines how it is positioned within its parent
 
 `absolute` When positioned absolutely an element doesn't take part in the normal layout flow. It is instead laid out independent of its siblings. The position is determined based on the `top`, `right`, `bottom`, and `left` values.
 
-![Absolute & Relative Layoutp](https://cdn-images-1.medium.com/max/800/1*NlPeRQCQK3Vb5nyjL0Mqxw.png)
+![Absolute & Relative Layout](/react-native/docs/assets/flex/postion.png)
 
 #### Going Deeper
 
